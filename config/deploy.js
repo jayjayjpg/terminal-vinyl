@@ -26,7 +26,7 @@ module.exports = function(deployTarget) {
 
   ENV.git = {
     repo: 'git@github.com:jessica-jordan/terminal-vinyl.git',
-    branch: 'gh-pages',
+    branch: 'master',
     worktreePath: '/tmp/jessica-jordan-deploy',
     commitMessage: 'Deployed %@'
   };
