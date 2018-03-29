@@ -20,6 +20,8 @@ module.exports = function(deployTarget) {
   if (deployTarget === 'production') {
     ENV.build.environment = 'production';
     // configure other plugins for production deploy target here
+    ENV.rootURL = '/terminal-vinyl';
+    ENV.locationType = 'hash';
   }
 
   ENV.git = {
